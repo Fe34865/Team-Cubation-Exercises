@@ -1,0 +1,62 @@
+Início
+   |
+   v
+Exibir "Digite o primeiro número"
+   |
+   v
+Ler num1
+   |
+   v
+Exibir "Digite o segundo número"
+   |
+   v
+Ler num2
+   |
+   v
+Exibir "Escolha a operação (+, -, *, /)"
+   |
+   v
+Ler operacao
+   |
+   v
++------------[ operação ]-------------+
+|                                     |
+| operacao == '+'                     |
+|     |                               |
+|     v                               |
+| Calcular resultado = num1 + num2    |
+|                                     |
+| operacao == '-'                     |
+|     |                               |
+|     v                               |
+| Calcular resultado = num1 - num2    |
+|                                     |
+| operacao == '*'                     |
+|     |                               |
+|     v                               |
+| Calcular resultado = num1 * num2    |
+|                                     |
+| operacao == '/'                     |
+|     |                               |
+|     v                               |
+| num2 == 0 ?                         |
+|     |                               |
+|     +---- Sim ----> Exibir "Divisão |
+|     |              por zero não é   |
+|     |              permitida."      |
+|     |                               |
+|     +---- Não ----> Calcular        |
+|                    resultado = num1 |
+|                    / num2           |
+|                                     |
+| operacao inválida                   |
+|     |                               |
+|     v                               |
+| Exibir "Operação inválida"          |
++-------------------------------------+
+   |
+   v
+Exibir "O resultado é: " + resultado
+   |
+   v
+Fim
